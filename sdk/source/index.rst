@@ -11,11 +11,11 @@ Welcome to SDK's documentation!
    :caption: Contents:
 
    getting_started
-   definitions.md
-   trusted_connection.md
-   issue_credential.md
-   present_proof.md
-   trusted_environment.md
+   definitions
+   trusted_connection
+   issue_credential
+   present_proof
+   trusted_environment
 
 
 
