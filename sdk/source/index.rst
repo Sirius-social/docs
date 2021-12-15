@@ -7,8 +7,16 @@ Welcome to SDK's documentation!
 ===============================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
+
+   getting_started
+   definitions.md
+   trusted_connection.md
+   issue_credential.md
+   present_proof.md
+   trusted_environment.md
+
 
 
 
