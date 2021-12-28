@@ -68,7 +68,7 @@ async with sirius_sdk.context(**inviter_agent_params):
             # запускаем процесс установки соединения
             ok, pairwise = await inviter_machine.create_connection(request)
 ```
-Весь пример [доступен здесь](examples/python/establish_connection/main.py).
+Весь пример [доступен здесь](https://github.com/Sirius-social/docs/tree/main/sdk/examples/python/establish_connection/main.py).
 
 Результатом установки соединения у обеих сторон является объект Pairwise, который хранится в Wallet обеих сторон. 
 Следует отметить, что установка соединения

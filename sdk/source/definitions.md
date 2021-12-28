@@ -68,7 +68,7 @@ async with sirius_sdk.context(**client_agent_params):
     # Данный вызов создает новый DID и сохраняет его в Wallet
     agent_did, agent_verkey = await sirius_sdk.DID.create_and_store_my_did()
 ```
-Весь пример [доступен здесь](examples/python/create_private_did/main.py).
+Весь пример [доступен здесь](https://github.com/Sirius-social/docs/tree/main/sdk/examples/python/create_private_did/main.py).
 
 ### Публичный DID
 Публичный DID регистрируется в [публичном реестре](https://www.w3.org/TR/did-spec-registries/). Таким образом, соответствующий
@@ -89,7 +89,7 @@ async with sirius_sdk.context(**steward_agent_params):
         ver_key=agent_verkey
     )
 ```
-Весь пример [доступен здесь](examples/python/register_public_did_indy/main.py).
+Весь пример [доступен здесь](https://github.com/Sirius-social/docs/tree/main/sdk/examples/python/register_public_did_indy/main.py).
 
 ## SSI кошелек
 Кошелек представляет собой хранилище публичных и приватных ключей, проверяемых учетных данных, DID и других приватных
@@ -147,7 +147,7 @@ async with sirius_sdk.context(**agent_params):
     for e in endpoints:
         print('address: {}; routing_keys: {}'.format(e.address, e.routing_keys))
 ```
-Весь пример [доступен здесь](examples/python/endpoints/main.py).
+Весь пример [доступен здесь](https://github.com/Sirius-social/docs/tree/main/sdk/examples/python/endpoints/main.py).
 
 ### Медиатор
 Мобильный агент по разным причинам не может быть доступен 24/7 и у него скорее всего нет постоянного URL адреса. 
@@ -196,4 +196,4 @@ ok, cred_def = await dkms.register_cred_def(
         submitter_did=gov_did
     )
 ```
-Весь пример [доступен здесь](examples/python/create_schema/main.py).
+Весь пример [доступен здесь](https://github.com/Sirius-social/docs/tree/main/sdk/examples/python/create_schema/main.py).
