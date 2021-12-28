@@ -3,8 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to SDK's documentation!
+IndiLynx SDK
 ===============================
+
+Платформа для смарт-контрактов на базе технологии цифровой идентичности
 
 .. toctree::
    :maxdepth: 1

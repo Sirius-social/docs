@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'SDK'
+project = 'IndiLynx SDK'
 copyright = '2021, Networks Synergy'
 author = 'Networks Synergy'
 
@@ -46,6 +46,8 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+
+language = 'ru'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
