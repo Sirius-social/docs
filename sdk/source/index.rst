@@ -15,7 +15,7 @@ Welcome to SDK's documentation!
    trusted_connection
    issue_credential
    present_proof
-   trusted_environment
+   trusted_environment.md
 
 
 
