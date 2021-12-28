@@ -6,25 +6,15 @@
 IndiLynx SDK
 ===============================
 
-Платформа для смарт-контрактов на базе технологии цифровой идентичности
+Платформа для смарт-контрактов на базе технологии цифровой идентичности.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
 
    getting_started
    definitions
    trusted_connection
    issue_credential
    present_proof
-   trusted_environment.md
-
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   trusted_environment
+   useful_links
