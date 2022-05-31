@@ -1,9 +1,9 @@
-IndiLynx SDK
+Sirius SDK
 ===============================
 
 Платформа для смарт-контрактов на базе технологии цифровой идентичности.
 
-Ключевые особенности платформы IndiLynx
+Ключевые особенности платформы Sirius
 ---------------------------------------
    - Основан на `Hyperledger Indy <https://www.hyperledger.org/use/hyperledger-indy>`_, `Aries протоколах <https://github.com/hyperledger/aries-rfcs/>`_, стандартах `W3C <https://www.w3.org/community/credentials/>`_ и `DIF <https://identity.foundation/>`_
    - Гибкая настройка доверия между субъектами и агентами

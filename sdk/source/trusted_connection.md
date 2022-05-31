@@ -1,13 +1,13 @@
 # Установка доверенного соединения между агентами
 
-IndiLynx SDK позволяет устанавливать защищенное соединение между двумя агентами в соответствии с протоколом 
+Sirius SDK позволяет устанавливать защищенное соединение между двумя агентами в соответствии с протоколом 
 [0160-connection-protocol](https://github.com/hyperledger/aries-rfcs/tree/main/features/0160-connection-protocol).
 
 В процессе установки защищенного соединения участвуют две стороны: Inviter и Invitee. Inviter инициирует процесс установки
 соединения путем выпуска приглашения (Invitation). Приглашение может быть публичным для неопределенного круга лиц или 
 приватным и выпускаться для конкретного пользователя.
 
-IndiLynx SDK инкапсулирует всю внутреннюю логику протокола
+Sirius SDK инкапсулирует всю внутреннюю логику протокола
 [0160-connection-protocol](https://github.com/hyperledger/aries-rfcs/tree/main/features/0160-connection-protocol) в двух
 конечных автоматах: sirius_sdk.aries_rfc.Inviter и sirius_sdk.aries_rfc.Invitee.
 

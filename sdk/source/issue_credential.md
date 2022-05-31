@@ -1,12 +1,12 @@
 # Выдача и получение проверяемых учетных данных
-IndiLynx SDK позволяет выдавать и получать проверяемые учетные данные в соответствии с протоколом
+Sirius SDK позволяет выдавать и получать проверяемые учетные данные в соответствии с протоколом
 [0036-issue-credential](https://github.com/hyperledger/aries-rfcs/tree/main/features/0036-issue-credential).
 
 В процессе выдачи проверяемых учетных данных участвуют две стороны: Issuer и Holder. Issuer выдает VC, выпущенный
 в соответствии с ранее созданной схемой и Credential Definition и подписанный его цифровой подписью. Holder сохраняет
 данный VC в своем защищенном кошельке.
 
-IndiLynx SDK инкапсулирует всю внутреннюю логику протокола [0036-issue-credential](https://github.com/hyperledger/aries-rfcs/tree/main/features/0036-issue-credential)
+Sirius SDK инкапсулирует всю внутреннюю логику протокола [0036-issue-credential](https://github.com/hyperledger/aries-rfcs/tree/main/features/0036-issue-credential)
 в двух конечных автоматах: Issuer и Holder.
 
 Предполагается, что между Issuer и Holder установлено доверенное соединение.
