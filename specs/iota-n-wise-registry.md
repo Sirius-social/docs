@@ -73,4 +73,4 @@ The order of transactions and resolution of collisions is carried out following 
 
 ## Implementations
 
-[Sirius SDK-Java](https://github.com/Sirius-social/sirius-sdk-java/blob/master/src/test/java/TestNWise.java)
+[Sirius SDK-Java](https://github.com/Sirius-social/sirius-sdk-java/). See the detailed usage [example](https://github.com/Sirius-social/Notebooks/blob/main/notebooks/NwiseJava.ipynb) in a form of Jupyter notebook.
